@@ -1,5 +1,5 @@
 <template>
-  <button :class="{ primary: primary }" @:click="handleClick">
+  <button :class="{ primary: primary }" @:click="doubleHeight">
     {{ text }}
   </button>
 </template>
@@ -15,6 +15,11 @@ export default {
     return {
       primary: true,
     };
+  },
+  methods: {
+    doubleHeight() {
+      this.height = this.height * 2;
+    },
   },
 };
 </script>
