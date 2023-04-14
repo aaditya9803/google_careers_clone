@@ -35,4 +35,7 @@ button {
 .primary {
   @apply text-white bg-brand-blue-1 hover:shadow-blue;
 }
+.secondary {
+  @apply text-brand-green-1 bg-brand-green-1 bg-transparent hover:bg-brand-blue-2 hover:text-white;
+}
 </style>
