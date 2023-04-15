@@ -21,6 +21,7 @@
       <ActionButton
         v-else
         text="random"
+        type="primary"
         data-test="login-button"
         @:click="loginUser"
       />
