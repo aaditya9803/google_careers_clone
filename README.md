@@ -1,4 +1,4 @@
-# new_project
+# google_careers_clone
 
 ## Project setup
 ```
