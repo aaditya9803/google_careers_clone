@@ -27,16 +27,20 @@
       />
     </div>
   </div>
+  <Subnav_1 />
 </template>
 <script>
 import ActionButton from "@/components/ActionButton.vue";
 import ProfileImage from "@/components/ProfileImage.vue";
+import Subnav_1 from "@/components/Subnav.vue";
+
 export default {
   /*giving name to component*/
   name: "MainNav",
   components: {
     ActionButton,
     ProfileImage,
+    Subnav_1,
   },
   data() {
     return {
