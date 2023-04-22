@@ -27,7 +27,7 @@
       />
     </div>
   </div>
-  <Subnav_1 />
+  <Subnav_1 v-if="isLoggedIn" />
 </template>
 <script>
 import ActionButton from "@/components/ActionButton.vue";
